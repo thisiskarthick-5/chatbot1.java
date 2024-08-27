@@ -16,7 +16,9 @@
                 if (userInput.equals("exit")) {
                     System.out.println("Chatbot: Goodbye!");
                     break;
-                } else if (userInput.contains("hello")) {
+                }else if(userInupt.contain("hi")) {
+                    System.out.println("hi there");
+                }else if (userInput.contains("hello")) {
                     System.out.println("Chatbot: Hi there!");
                 } else if (userInput.contains("how are you")) {
                     System.out.println("Chatbot: I'm just a bunch of code, but I'm doing great! How about you?");
